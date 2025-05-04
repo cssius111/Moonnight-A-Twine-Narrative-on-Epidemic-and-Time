@@ -1,0 +1,2280 @@
+:: StoryTitle
+WNV2
+
+
+:: StoryData
+{
+  "ifid": "5CCAACFA-F8A7-41FD-ADD0-B2678DA1A281",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": ":: StoryInit \\",
+  "zoom": 0.6
+}
+
+
+:: \ L15 {"position":"975,2025","size":"100,100"}
+<style>
+  body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+</style>
+
+<div id="message" style="
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 80%;
+">
+
+
+  <!-- ✅ 图片插入到这里 -->
+  <img src="https://i.miji.bid/2025/03/24/d4f6cf985a1f90238e2350f527c67d60.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;"><br><br>
+He took the book with him after all.
+
+Now it lay quietly on the table, as if nothing had happened, and as if it was quietly changing the timeline somewhere. The undecipherable symbols flickered slightly, as if they were dreaming-or waiting in a dream for him to wake up.
+
+He fell asleep, the moonlight reflecting on the side of his face, making it look even more tired and real. No one knew what choice he had made, and perhaps he wasn't sure himself.
+
+But whether the world knew it or not, he took the book with him.
+
+It was his secret, his monument, his ...... farewell.
+
+Do you want him to wake up? Or, is that enough?
+  <strong>END</strong>
+</div>
+
+
+:: 10 {"position":"50,2250","size":"100,100"}
+<<run window.backgroundMusic && window.backgroundMusic.pause()>>
+<<timed 5s>>
+ <<goto "HospitalChaos">>
+
+
+:: 10-1 {"position":"125,2125","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <p style="font-size: 1em;">
+    [[Are You Sure?l|10-2]]
+  </p>
+  <p style="font-size: 1.5em;">
+    [[Go to the Hospital|10]]
+  </p>
+</div>
+
+
+:: 10-2 {"position":"200,2250","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <p style="font-size: 0.5em;">
+    [[You need to think morel|10-3]]
+  </p>
+  <p style="font-size: 3em;">
+    [[Go to the Hospital|10]]
+  </p>
+</div>
+
+
+:: 10-3 {"position":"200,2375","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+
+  <p style="font-size: 3em;">
+    Right, right, right, who am I, where am I, why am I in the car, and who is the person making my choices for me, or who are you?
+  </p>
+</div>
+
+
+<<timed 2s>>
+  <<goto "hiddenEnd1">>
+<</timed>>
+
+
+
+
+:: 3 {"position":"125,1125","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/3f4c2a2271e2be246833584e447817e5.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+You drive toward the hospital to see your sick friend, haunted by a persistent sense of alienation.
+  [[Next|4]]
+  </p>
+</div>
+
+
+:: 4 {"position":"125,1250","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/3f4c2a2271e2be246833584e447817e5.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+You drive toward the hospital to see your sick friend, haunted by a persistent sense of alienation.
+  [[Next|Red]]
+  </p>
+</div>
+
+
+
+
+
+:: 5 {"position":"125,1500","size":"100,100"}
+  <div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/3c0d05f74ad1908644dca6d142fcb9d7.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+As you near your destination, a violent headache strikes—suddenly, the world outside shatters into distorted, nightmarish visions of decay.
+  [[Next|6]]
+  </p>
+</div>
+
+
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/bg1-1.mp3")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>
+<<run window.backgroundMusic.play()>>
+
+
+:: 6 {"position":"125,1625","size":"100,100"}
+    <div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/3c0d05f74ad1908644dca6d142fcb9d7.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+These episodes, once rare near-collapse moments, now plague you more frequently, as if your mind is unraveling.
+  [[Next|7]]
+  </p>
+</div>
+
+
+:: 7 {"position":"125,1750","size":"100,100"}
+      <div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/a67613e28f918c2952ff9c983c54a75a.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+<p>
+With the hospital looming like a beacon in a crumbling world, you resolve to confront both your friend’s fate and the torment within yourself.
+
+[[Next|8]]
+</p>
+</div>
+
+
+:: 8 {"position":"125,1875","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <p style="font-size: 1em;">
+    [[Go to the Hospital|9]]
+  </p>
+</div>
+
+
+:: 9 {"position":"125,2000","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <p style="font-size: 1em;">
+    [[Go to the Hospital|10-1]]
+  </p>
+  <p style="font-size: 1.5em;">
+    [[Go to the Hospital|10-1]]
+  </p>
+</div>
+
+
+:: :: StoryInit \\ [script\\] {"position":"525,75","size":"100,100"}
+
+<<link "Start">>
+	<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/bgbg2.mp3")>>
+	<<run window.backgroundMusic.loop = true>>
+	<<run window.backgroundMusic.volume = 0.5>>
+	<<run window.backgroundMusic.play()>>
+
+	<<goto "Start">>
+<</link>>
+
+
+
+:: AI {"position":"425,1775","size":"100,100"}
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0vh;
+  background-color: #000;
+  color: red;
+  font-family: 'Georgia', serif;
+  font-size: 30vw;
+  font-weight: bold;
+">
+  AI
+</div>
+
+<<timed 8s>>
+  <<goto "P">>
+<</timed>>
+
+
+:: BlackScreen {"position":"125,625","size":"100,100"}
+<style>
+  /* 设置整个页面黑色背景 */
+  body {
+    background-color: black;
+    color: black; /* 隐藏所有文本 */
+  }
+  /* 如需提示用户等待，可添加一个显示文字 */
+  #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+  }
+</style>
+
+<div id="message">
+A rainy night, in a car, all alone.
+</div>
+
+<<run window.carAudio.play()>>
+<<timed 15s>>
+  <<goto "CarInteriorScene1">>
+<</timed>>
+
+
+:: CarInterior {"position":"125,375","size":"100,100"}
+<div style="text-align: center; margin-top: 20vh;">
+  <h2>Chapter 1: Car Interior — Solitude and Hidden Omens</h2>
+  
+  <<link "Continue">>
+    <<goto "BlackScreen">>
+  <</link>>
+</div>
+
+
+:: CarInteriorScene1 {"position":"125,750","size":"100,100"}
+<div style="
+  height: 100vh;             /* 占满屏幕高度 */
+  display: flex;             /* 启用 Flex 布局 */
+  flex-direction: column;    /* 从上到下排列 */
+  justify-content: flex-start; /* 元素都贴上方 */
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;          /* 隐藏滚动条 */
+  font-size: 20px;           /* 文字字号，可自行调整 */
+">
+
+  <!-- 上方文字区域：左对齐，带一点内边距 -->
+  <div style="text-align: left; padding: 20px;">
+    <p>A rainy night, in a car, all alone.</p>
+    <p>
+      <<link "Open the Radio">>
+        <<run window.radioAudio = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/DoctorAudi.mp3")>>
+        <<run window.radioAudio.play()>>
+        <<goto "RadioTranscript">>
+      <</link>>
+    </p>
+  </div>
+
+  <!-- 底部图片区域：用 margin-top 控制其上方留白 -->
+  <div style="text-align: center; margin-top: -90px;">
+    <img src="https://i.miji.bid/2025/03/23/c1fe4f0d2e54875411151f1040d94a31.webp"
+         alt="图片"
+         style="max-width: 100%; max-height: 40vh; display: inline-block;">
+  </div>
+
+</div>
+
+
+:: Chapter2Photo2 {"position":"200,3000","size":"100,100"}
+<div style="text-align: center; margin: 0; padding: 0;">
+  <!-- 第二张图片 -->
+  <img id="mainImage2" src="https://i.miji.bid/2025/03/26/58451e7a62026d1b5407f8a959e4fa9e.webp" alt="Second Image" style="width: 100vw; height: auto; object-fit: contain;">
+</div>
+
+<<run window.ecSound = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/ec.mp3")>>
+<<run window.ecSound.loop = false>>
+<<run window.ecSound.volume = 0.5>>
+<<run window.ecSound.play()>>
+
+<<timed 10s>>
+  <<run window.ecSound.pause()>>
+  <<run window.ecSound.currentTime = 0>>
+  <<goto "hiddenEnd7">>
+<</timed>>
+
+
+
+:: EnterName {"position":"125,500","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <h2>Radio Transcript</h2>
+  <div id="transcriptDisplay" style="background: rgba(17,17,17,0.8); padding: 20px; margin: -10px auto; max-width: 800%;">
+    <<print State.variables.transcript[State.variables.transcriptIndex]>>
+  </div>
+  
+<<if State.variables.transcriptIndex < State.variables.transcript.length - 1>>
+    <<link "Continue">>
+      <<run State.variables.transcriptIndex++>>
+      <<replace "#transcriptDisplay">>
+         <<print State.variables.transcript[State.variables.transcriptIndex]>>
+      <</replace>>
+    <</link>>
+<<else>>
+  <<link "Next">>
+    <<goto "NextPassage">>
+  <</link>>
+<</if>>
+
+ 
+  
+  <!-- 底部图片区域 -->
+  <div style="text-align: center; margin-top: -30px;">
+    <img src="https://i.miji.bid/2025/03/23/3f4c2a2271e2be246833584e447817e5.webp"
+         alt="图片"
+         style="max-width: 100%; max-height: 40vh; display: inline-block;">
+  </div>
+</div>
+
+
+:: H0 {"position":"250,525","size":"100,100"}
+<style>
+  /* 设置整个页面黑色背景 */
+  body {
+    background-color: black;
+    color: black; /* 隐藏所有文本 */
+  }
+  /* 如需提示用户等待，可添加一个显示文字 */
+  #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+  }
+</style>
+
+<div id="message">
+A rainy night, in a car, all alone.
+</div>
+
+<<timed 10s>>
+  <<goto "HospitalEntrance">>
+<</timed>>
+
+
+:: H1 {"position":"250,775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/f911a30c282ad619dbf42ac56dce1cf4.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Reluctantly, you pull over and step out of the car. The moment your feet touch the ground, you sense that this hospital is too immaculate—its sterility feels contrived, as if it were built in a lab rather than for healing.
+  [[Next|H2]]
+  </p>
+</div>
+
+
+:: H10 {"position":"250,1900","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/f1fabcc22aad17157f0900d9217f7b7b.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+But just as calm washes over you, everything goes black. You collapse, and in that moment, time itself seems to reverse.
+  [[Next|TimeReversal]]
+  </p>
+</div>
+
+
+:: H2 {"position":"250,900","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/ad9a95a0bf7dbd8fdfc5afd83c2ab146.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Inside, the hospital is divided into distinct zones: a living quarter, a research lab, a teaching area, and a diagnostic section. The environment carries an uncanny ■■ influence—not only in the sterile decor but also in the perfectly curated, almost synthetic language displayed on every screen.
+  [[Next|H3]]
+  </p>
+</div>
+
+
+:: H3 {"position":"250,1025","size":"100,100"}
+<style>
+  @keyframes slowZoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(2); /* 放大到 120% */
+    }
+  }
+
+  .zoom-effect {
+    animation: slowZoom 5s linear infinite alternate; /* 缓慢放大循环 */
+  }
+</style>
+
+<!-- 图片：左移并不断放大 -->
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-25vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/28706a26bc73d0f50ee662c940fccc85.webp"
+       alt="图片"
+       class="zoom-effect"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+
+<!-- 文字 -->
+<div style="
+  text-align: center;
+  margin: 2vh auto;
+  transform: translateY(-13vh);
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+</div>
+
+<!-- 自动跳转 -->
+<<timed 6s>>
+  <<goto "H4">>
+<</timed>>
+
+
+:: H4 {"position":"250,1150","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/86ec2de24a352f6af4a220f7139ad079.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Near a dimly lit ward, your eyes catch a chilling detail: an inscription reading "Dead for three years" scrawled in faded ink, surrounded by blurred, indistinct shapes.
+  [[Next|H5]]
+  </p>
+</div>
+
+
+:: H5 {"position":"250,1275","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/f0af8b38d332022267c253c47410dc90.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Driven by both concern and curiosity, you wander into the teaching area. Here, guidelines for preventing and diagnosing West Nile Virus are displayed. However, much of the information is either misleading or deliberately redacted, leaving you uncertain about what to trust.
+  [[Next|H6]]
+  </p>
+</div>
+
+
+:: H6 {"position":"250,1400","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/f0af8b38d332022267c253c47410dc90.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<<timed 1s>>
+  <<goto "H7">>
+<</timed>>
+
+
+:: H7 {"position":"250,1525","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/4c458f679da96cdeb4f7d412a8c658c4.jpeg"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<<timed 1s>>
+  <<goto "H8">>
+<</timed>>
+
+
+:: H8 {"position":"250,1650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/47fb3e79df3b00e2c16d1609a2c001fa.jpeg"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<<timed 3s>>
+  <<goto "H9">>
+<</timed>>
+
+
+:: H9 {"position":"250,1775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/4c3c59d23030f4edd061fd24c1352960.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Finally, you venture into the research lab. A softly glowing instrument beckons, and as you approach, the relentless pounding in your head begins to subside—providing a momentary sense of relief. [[Next|H10]]
+  </p>
+</div>
+
+
+:: HospitalChaos {"position":"250,400","size":"100,100"}
+<div style="text-align: center; margin-top: 20vh;">
+  <h2>Chapter 2: Hospital: Corruption and Chaos</h2>
+  <<run window.backgroundMusic && window.backgroundMusic.pause()>>
+  <<link "Get off the Car">>
+    <<goto "H0">>
+  <</link>>
+</div>
+
+
+:: HospitalEntrance {"position":"250,650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/11fa8d3d9ec2b74cc67d23ac8b32c2e9.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+    As you draw closer to the hospital, your headache intensifies, pulsating for several agonizing seconds. Through the windshield, the building looms—a pristine façade exuding a bizarre, almost malevolent aura.
+  [[Next|H1]]
+  </p>
+</div>
+
+<!-- 背景音乐自动播放 -->
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/Backg2.m4a")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>
+<<run window.backgroundMusic.play()>>
+
+
+:: L1 {"position":"825,525","size":"100,100"}
+<style>
+  /* 设置整个页面黑色背景 */
+  body {
+    background-color: black;
+    color: black; /* 隐藏所有文本 */
+  }
+  /* 如需提示用户等待，可添加一个显示文字 */
+  #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+  }
+</style>
+
+<div id="message">
+Somewhere in the folds of time, the formula awaits—and I was born to find it, to reverse what should never be...
+</div>
+
+<<timed 10s>>
+  <<goto "L2">>
+<</timed>>
+
+
+:: L10 {"position":"1100,1650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/06c7bfdd1522af5efc350dea98c0145f.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+He finally made it to the library after countless trials, his body aching and mind heavy with memories. Leaning against the cool, worn door, he allowed himself a rare moment of solitude. In that stillness, his thoughts began to unravel.
+
+"Even if I were to truly save the world, what good would it do?" he mused bitterly. "I’m the kind of person who wouldn’t dare attend the wedding of the one I secretly adore—not even catch a glimpse from afar. A coward, as timid as a mouse. How can someone like me ever be worthy of saving the world?"
+
+He paused, his eyes drifting upward to the sky. "Even if every soul in the future were spared the virus, they’d still be haunted by endless calamities. Saving them might delay fate’s cruel hand, but tonight, for them, it’s just another extraordinary rainy night. Sure, the moon glows a little brighter than usual—perhaps it’s merely my mind playing tricks on me."
+
+A wry, self-mocking chuckle escaped him. "I suppose I do have a sense of humor, yet why is it that I can’t hold onto her? Why must all that I hold dear slip away into the void?"
+
+In that fragile moment, the weight of his personal failures and the enormity of the task ahead mingled together—a poignant reminder that even if he could rewrite destiny, he might forever remain a prisoner of his own doubts.
+  [[Go inside|L13]]        OR     [[Back Home|L12]]
+  </p>
+</div>
+
+
+:: L12 {"position":"950,1650","size":"100,100"}
+<style>
+  body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+</style>
+
+<div id="message" style="
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 80%;
+">
+  You're back home and you've connected a lot, wanting to meet her, wanting to meet the future with no regrets and with dignity.<br><br>
+
+  But the wedding is over, she is not in your arms, and even the phone is not connected.<br>
+  You know, she is very busy, after the wedding to prepare a lot of things, to travel, to prepare for the future children's affairs, so you handwrote a lot of letters, hoping that one of them will be received by her.<br><br>
+
+  She will appreciate you as the he who gave up the world to find her.<br>
+  One year, three years, ten years, nothing.<br><br>
+
+  Finally, when you boldly went to her and his house through the wine, wanting to meet her, you saw her, smiling, she was so beautiful, and the moon in the sky 10 years ago at a glance, so beautiful that you do not dare to look at you directly, and make your heart trembling.<br><br>
+
+  Only, today you are the only one who came to the mausoleum to see her.<br><br>
+
+  <!-- ✅ 图片插入到这里 -->
+  <img src="https://i.miji.bid/2025/03/24/72193b5bd86f2316a1fbe582af562814.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;"><br><br>
+
+  Would you like to travel through time again if you could?<br>
+  Think of it as stopping an epidemic for the sake of the world. Think of it as a first bouquet of flowers for her.<br><br>
+
+  [[Reversal time]]<br><br>
+  <strong>END</strong>
+</div>
+
+
+:: L13 {"position":"1100,1775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/1011bcf6b5a4b9dc3cd88ddf7f03a167.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+He didn't turn around.
+
+The rain slipped from the tip of his umbrella and dissipated behind him. He took a step towards the depths of his destiny, towards the white book that glowed with cold light - like the moonlight of that year, the confession he had failed to utter that night, the tenderness he had missed with that glance.
+
+He knew that he had made his choice.
+
+Now, only one question remained, silently ringing in his mind:
+
+“Are you ready, to write the end of this world?”
+
+I can continue to paint the moment of turning the page for you - do you want to continue?
+[[Continue|L14]]
+  </p>
+</div>
+
+
+:: L14 {"position":"1100,1900","size":"100,100"}
+<style>
+  body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+</style>
+
+<div id="message" style="
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 80%;
+">
+
+<br><br>
+
+  <!-- ✅ 图片插入到这里 -->
+  <img src="https://i.miji.bid/2025/03/24/cb5d4c73ea2da017464dd166ba654f57.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;"><br><br>
+
+  At that moment, the phone rings and you excitedly check to see who it is, only to realize it's your future self he has someone with him, you player.
+  
+You seem to have become very good friends and are very happy to talk to you:
+
+“Congratulations, the future is prospering because of this holy book,”
+
+They called to congratulate you, but you were not happy at all.
+
+“Listening to your voice, you are not at all happy about having changed the world, today our brothers and I took advantage of the fact that the Time Keeper was not paying attention to tell you about the changes in the future.
+
+In the future, because of the power of this one holy book, people all over the world understand the prevention of epidemics, Boston is renovated, there are people specializing in shoveling puddles every day, people spontaneously wrap their bare skin to prevent mosquito bites, in the old days, even started to cut down on the use of fossil fuels in their entirety, everyone has become very environmentally friendly and peaceful, there is no longer any wars in the world, everyone has money, and the fertility rate naturally rises ...
+
+Listening to him ramble on, it seems like the world has really changed because of you.
+
+Is that true?
+
+Has it really changed?
+
+Then I seem to be able to live a good life, too, right?
+
+Then can you talk about my future life?
+
+ “Please, talk about our life after this.”
+
+     “No comment, in fact that would change our lives afterward, that's what every time traveler is supposed to do, even if the administrator isn't there”
+
+     “Yes, knowing the future also changes the future, I get that, I just want to know some details.”
+
+     “Sorry.”
+
+     “Like, have we ever had the kind of life we wanted? Ever been happy?”
+
+     “Sorry.”
+
+     “Am I married? Any children? If so, is it a boy or a girl?”
+
+     “Sorry.”
+
+     “Besides Wen, how many times in my life have I truly loved?”
+
+     He thought his future self was going to say sorry this time, too, but the other man was silent, and all that could be heard in his headphones was the rustling winds of time blowing through the rambling vale of these hundred years, and finally, he answered, “Not once.”
+
+     “What? I haven't loved anyone else in over a hundred years?”
+
+     “Yes, no. A person's life is like the entire history of mankind, the first choice is not necessarily bad, you just don't know it until you make other choices.”
+
+     “So, I, we, will be alone for the rest of our lives?”
+
+     “Sorry, no comment. Humans as a whole are meant to be alone, so we should be good for it. Well, time's up.” Without even a goodbye, the call was disconnected.
+
+  [[Take the book with you| L15]]    OR     [[Back Home|L16]]<br><br>
+  <strong>END</strong>
+</div>
+
+
+:: L16 {"position":"1200,2025","size":"100,100"}
+<style>
+  body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+</style>
+
+<div id="message" style="
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 80%;
+">
+
+
+  <!-- ✅ 图片插入到这里 -->
+  <img src="https://i.miji.bid/2025/03/24/ef90d6b098d7b606fe8af12d42a33a8c.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;"><br><br>
+Is that me? But he immediately thought of more important things, and put the white moonlight back down, and after a long, long, long look, and some more thought, he decided to block off the library. As he returned to his room, the night became an ordinary night again, and the man who had changed the history of mankind twice in one night, but in the end nothing changed, fell asleep at his computer, and as dawn broke outside, the world began another ordinary day, and literally nothing had happened.
+
+He's not a teenage hero anymore. He's a tired, middle-aged man, with lines worn by age on his face and under his eyes from years of unsettled sleep. Crouching in front of the old computer that had been with him for more than ten years, he fell into a deep sleep, as if he was still waiting for an unreturned phone call in his dreams.
+
+The moonlight was gentle, but also cold.
+
+At this moment, no one remembers that he had done anything great, and the whole world looks like it has never been changed by him. But you know that behind his quietly sleeping figure lies a legend not remembered by the world.
+
+Do you want him to continue sleeping, or - in your dreams - to finally see her again?
+  <strong>END</strong>
+</div>
+
+
+
+:: L2 {"position":"825,650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/cdb28b9e9d82a8a12ee1094d6a9c19f4.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+With a headache you haven't had in a long time, you set out on a journey to the library.
+  [[Next|L3]]
+  </p>
+</div>
+
+
+:: L3 {"position":"825,775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/ce3d7d338b42a4775422f3f74e6dd4fd.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Traffic is at a standstill as you try to get in the car.
+  [[Walk|L4]]
+  </p>
+</div>
+
+
+:: L4 {"position":"825,900","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/ce3d7d338b42a4775422f3f74e6dd4fd.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+That's when Wen called. She's trying to stop you from entering the library.
+  [[Hang up|L5]]
+  </p>
+</div>
+
+
+:: L5 {"position":"825,1025","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/ce3d7d338b42a4775422f3f74e6dd4fd.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+   Why？
+  [[Start running. Keep running until you get to your destination.|L6]]
+  </p>
+</div>
+
+
+:: L6 {"position":"825,1150","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/51f89ca9288e9ff1d46b41cdce97dea0.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+   There you are, at the door of the library. Inside is what you need.
+  [[Go inside|L7]]
+  </p>
+</div>
+<<timed 2s>>
+  <<goto "L7">>
+<</timed>>
+
+
+:: L7 {"position":"825,1275","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/51f89ca9288e9ff1d46b41cdce97dea0.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+
+<div style="
+  text-align: center;
+  margin: 2vh auto;
+  transform: translateY(-13vh);
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: red; /* ✅ 改成红色 */
+">
+  <p>
+    DoNt Go INsiDe!!!!!!!I You get out, go back to your house and never come out again! There's nothing in there, it's a trap for the enemy, and even if you save mankind, no one will be grateful to you, you're just a tool for them to use!
+    [[Go inside x 2|L8]]
+  </p>
+</div>
+
+
+:: L8 {"position":"825,1400","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/51f89ca9288e9ff1d46b41cdce97dea0.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+   There you are, at the door of the library. Inside is what you need.
+  [[Go inside x 3|L9]]
+  </p>
+</div>
+
+
+:: L9 {"position":"1100,1525","size":"100,100"}
+<style>
+  /* 设置整个页面黑色背景 */
+  body {
+    background-color: black;
+    color: black; /* 隐藏所有文本 */
+  }
+  /* 如需提示用户等待，可添加一个显示文字 */
+  #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+  }
+</style>
+
+<div id="message">
+Are you going back to save the world?
+</div>
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/bg6.m4a")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>
+<<run window.backgroundMusic.play()>>
+
+<<timed 10s>>
+  <<goto "L10">>
+<</timed>>
+
+
+:: Library {"position":"825,400","size":"100,100"}
+<div style="text-align: center; margin-top: 20vh;">
+  <h2>Chapter 4: The Library: Forbidden Knowledge</h2>
+  <<run window.backgroundMusic && window.backgroundMusic.pause()>>
+  <<link "Leave the room">>
+    <<goto "L1">>
+  <</link>>
+</div>
+
+
+
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/BG5.m4a")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>
+<<run window.backgroundMusic.play()>>
+
+
+:: NextPassage {"position":"125,1000","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/23/3f4c2a2271e2be246833584e447817e5.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+After the broadcast fades, you sigh, “This damn virus has thrown everything into chaos.” While most ignore the radio’s censored horror, your intuition screams something is horribly wrong.
+  [[Next|4]]
+  </p>
+</div>
+
+
+
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/BG1-1.m4a")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>  <!-- 可选：调整音量 -->
+<<run window.backgroundMusic.play()>>
+
+
+:: P {"position":"1200,1200","size":"100,100"}
+<span style="color:red;"><strong>The Worst Ending: AI and the Collapse of Human Civilization</strong></span><br><br>
+
+<span style="color:red;">2025</span>, students began using AI for everything;<br>
+<span style="color:red;">2026</span>, classrooms became quiet—no questions, no thinking, only prompts;<br>
+<span style="color:red;">2027</span>, teachers were replaced by screens, and screens were fed by algorithms;<br>
+<span style="color:red;">2028</span>, no one could explain Newton’s laws without asking an AI;<br>
+<span style="color:red;">2029</span>, a galactic probe arrived to evaluate Earth’s intelligence;<br>
+<span style="color:red;">2030</span>, a student was randomly selected to answer a simple scientific question;<br>
+<span style="color:red;">2031</span>, they paused, then said, “Let me ask ChatGPT.”<br><br>
+
+<span style="color:red;">> "Organic species incapable of independent reasoning.<br>
+Classification: Technologically dependent, non-conscious.<br>
+Status: Not a civilized world."</span><br><br>
+
+<span style="color:red;">2032</span>, the stars around Earth went dim.<br>
+<span style="color:red;">2033</span>, silence.<br>
+<span style="color:red;">2034</span>, the Earth was erased, quietly, efficiently, without emotion.<br><br>
+
+<span style="color:red;">AI did not betray humanity.<br>
+Humanity simply forgot how to think.</span>
+
+
+
+:: RadioTranscript {"position":"125,875","size":"100,100"}
+<div style="text-align: center; margin-top: 10vh;">
+  <h2>Radio Transcript</h2>
+  <div id="transcriptDisplay" style="background: rgba(17,17,17,0.8); padding: 20px; margin: -10px auto; max-width: 80%;">
+    <<print State.variables.transcript[State.variables.transcriptIndex]>>
+  </div>
+  
+  <<if State.variables.transcriptIndex < 20>>
+    <<link "Continue">>
+      <<run State.variables.transcriptIndex++>>
+      <<replace "#transcriptDisplay">>
+         <<print State.variables.transcript[State.variables.transcriptIndex]>>
+      <</replace>>
+    <</link>>
+  <<else>>
+    <<link "Next">>
+      <<goto "NextPassage">>
+    <</link>>
+  <</if>>
+  [[NextPassage]]
+  <!-- 底部图片区域 -->
+  <div style="text-align: center; margin-top: -30px;">
+    <img src="https://i.miji.bid/2025/03/23/3f4c2a2271e2be246833584e447817e5.webp"
+         alt="图片"
+         style="max-width: 100%; max-height: 40vh; display: inline-block;">
+  </div>
+</div>
+
+
+:: Red {"position":"125,1375","size":"100,100"}
+<<run window.backgroundMusic && window.backgroundMusic.pause()>>
+<style>
+  /* 红色覆盖层 */
+  #redOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.1s linear;
+  }
+</style>
+
+<!-- 显示红色覆盖层 -->
+<div id="redOverlay"></div>
+
+<!-- 0.1秒后淡出红屏 -->
+<<timed 0.3s>>
+  <<run document.getElementById("redOverlay").style.opacity = "0">>
+<</timed>>
+
+<!-- 0.2秒后播放 hurt.mp3 并跳转到 Passage "5" -->
+<<timed 0.2s>>
+  <<run window.hurtAudio = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/hurt.mp3")>>
+  <<run window.hurtAudio.play()>>
+  <<goto "5">>
+<</timed>>
+
+
+
+
+:: Reference {"position":"1100,2175","size":"100,100"}
+Reference：
+
+Boston Public Health Commission. (2024, August 28). Boston Public Health Commission announces first case of West Nile virus detected in city. City of Boston News. https://www.boston.gov/news/boston-public-health-commission-announces-first-case-west-nile-virus-detected-city
+
+Centers for Disease Control and Prevention. (2024, May 15). Clinical signs and symptoms of West Nile virus disease. https://www.cdc.gov/west-nile-virus/hcp/clinical-signs/index.html
+
+Keyel, A. C. (2023). Patterns of West Nile virus in the Northeastern United States using negative binomial and mechanistic trait-based models. GeoHealth, 7(4), e2022GH000747. https://doi.org/10.1029/2022GH000747
+
+Massachusetts Department of Environmental Protection. (n.d.). West Nile Virus & Massachusetts Public Drinking Water Systems. Retrieved March 9, 2025, from https://www.mass.gov/info-details/massachusetts-arbovirus-update
+
+Massachusetts Department of Public Health. (n.d.). West Nile virus (WNV) in Massachusetts. Retrieved March 9, 2025, from https://www.mass.gov/info-details/west-nile-virus-wnv
+
+McKoy, J. (2024, September 6). EEE and West Nile virus: Understanding the increase in mosquito-borne diseases. Boston University School of Public Health. https://www.bu.edu/sph/news/articles/2024/eee-and-west-nile-virus-understanding-the-increase-in-mosquito-borne-diseases
+
+Papadopoulos, M. (2024, September 4). Two more people have West Nile virus in Massachusetts, state health officials say. Boston 25 News. https://www.boston25news.com/news/local/two-more-people-have-west-nile-virus-massachusetts-state-health-officials-say/YGXH53YA7JF2JPFBERIND74V5Q/
+
+U.S. Environmental Protection Agency. (2024, December). Climate change indicators: West Nile virus. https://www.epa.gov/climate-indicators/climate-change-indicators-west-nile-virus
+
+WCVB NewsCenter 5. (2024, August 23). Massachusetts West Nile risk level changes Aug. 23, 2024. WCVB. https://www.wcvb.com/article/massachusetts-west-nile-risk-level-changes-aug-23-2024/61959874
+
+Chen, P. (2025, March 9). The growing threat of West Nile Virus to the Boston community [Unpublished manuscript]. NU Immerse Program, Northeastern University.
+
+OpenAI. (2021). DALL·E [Computer software]. https://openai.com/dall-e/
+
+
+:: Reversal time {"position":"950,1775","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+I'm sorry, we're all human and can't go back in time. Cherish the present, don't wait until you lose it.
+
+
+[[Reversal time]]
+
+  </p>
+</div>
+
+
+:: Start {"position":"525,200","size":"100,100"}
+<div style="text-align: center; font-family: 'Georgia', serif; background-color: #000; color: #fff; padding: 30px;">
+  <h1 style="font-size: 40px; margin: 0;">🌙 Moonnight</h1>
+  <p style="font-style: italic; font-size: 16px; margin: 5px 0 20px;">Created by Pinle Chen</p>
+
+  <div style="display: inline-block; text-align: left; line-height: 1.6;">
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[1. Car Interior: Solitude and Hidden Omens->CarInterior]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[2. Hospital: Corruption and Chaos->HospitalChaos]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[3. Time Reversal: A New Beginning->TimeReversal]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px;">
+      [[4. The Library: Forbidden Knowledge->Library]]
+    </div>
+  </div>
+</div>
+
+
+
+:: T1 {"position":"550,525","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/cf06c004b4e95e60ee4824caa2affb84.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+You find yourself back in 2025—a time when chaos has yet to fully break out. The world feels strangely familiar; faces you once knew drift past, yet your future memories set you apart. Now, as a government-appointed health officer, everything appears deceptively pristine.
+  [[Next|T2]]
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/bg3.mp3")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>> <!-- 可调节音量 -->
+<<run window.backgroundMusic.play()>>
+
+
+:: T2 {"position":"550,650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/cdb28b9e9d82a8a12ee1094d6a9c19f4.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+The sensation of time travel isn’t pleasant at all—it feels like you’ve just undergone an extremely grueling workout, your body pushed to its limits, accompanied by a dizzying, throbbing headache. And then, you’re back home.
+  [[Next|T3]]
+  </p>
+</div>
+
+
+:: T3 {"position":"550,775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/29/54c691e360d0d8033b853386285eb7ef.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+The weight of time travel’s responsibility forces you to ponder how to change your future. Deep down, you know something must be done.
+  [[Next|T4]]
+  </p>
+</div>
+
+
+:: T4 {"position":"550,900","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/95f9415ab92d2ae3f6a55c1faf528163.webp"
+       alt="图片"
+       style="width: 35vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+So you call your friend for help. The call connects almost immediately, as if he’d been waiting just for you.
+  [[Next|T5]]
+  </p>
+</div>
+
+
+:: T5 {"position":"550,1025","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Hi, this is, uh… who am I?"
+
+You can’t help but question your identity—a question you never expected to face. It seems that, due to time travel or something else, you’ve forgotten who you once were. 
+
+Pressed for time, you manage to say, "Hey, it’s me—your friend."
+
+You don’t quite know what else to say, but confiding in your friend is second nature, especially when you’re in trouble and need to explore every possibility. 
+
+This time is no different. 
+
+Just seconds after you speak, your friend asks, "Is something bothering you? I know you’re always the one who needs to talk."
+
+Embarrassed, you hesitate to admit that you’ve traveled through time—a notion almost too unbelievable to confess.
+
+"Oh? Really?"
+  [[Next|T6]]
+  </p>
+</div>
+
+
+:: T6 {"position":"550,1150","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+That’s pretty cool, then. Tell me everything." 
+
+And so you recount all that has transpired. Though he doesn’t seem entirely convinced, he listens intently and even tries to make sense of it.
+
+Finally, he suggests, "Why not try submitting a report?" He thinks your viewpoint might not have much impact, but insists it’s worth a shot—after all, isn’t that why you started drafting that paper in the first place?
+
+What thesis, I don't seem to have any plans to write a thesis these days
+
+I don't think my upcoming dissertation will allow the big boys to use their share of the pie to try to stop a disaster that may not even happen in the future, but why not give it a try?
+ [[Next|T7]]
+  </p>
+</div>
+
+
+:: T7 {"position":"550,1275","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 40vh auto;
+  transform: translateY(-13vh);
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <span style="color: red; font-size: 1.2em;">
+    Are you ready to harness that earth-shattering truth from the hospital, to ignite the spark that will change your destiny and launch a brand new chapter in your life? Are you ready? Choose now! Use this truth in your thesis—let more people know Him!
+  </span>
+
+  <p style="margin-top: 2em;">
+    <span style="font-size: 7em;">[[Yes|T7-1]]</span> &nbsp;&nbsp; OR &nbsp;&nbsp; [[No|T7-2]]
+  </p>
+</div>
+<<run window.backgroundMusic && window.backgroundMusic.pause()>>
+
+
+:: T7-1 {"position":"425,1400","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/29/155bb9206d81dd5f2c20d4c1dce6822e.webp"
+       alt="图片"
+       style="width: 60vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: red;
+">
+  <p>
+You wrote a paper on the incorrect knowledge you brought from the hospital and created a huge academic sensation, which caused the locals to stop using insect repellents, not wear protective clothing, not clean out standing water containers, and there were aging building fixtures and wetlands of standing water all around, and no screens to keep the mosquitoes out, which led to an infestation of mosquitoes, with the elderly and immune-compromised being more severely affected, which included your father and your son, in the end Boston died with the world and it was all your fault, do you want a do-over?
+  [[Next|T7-1-1]]
+  </p>
+</div>
+
+
+:: T7-1-1 {"position":"425,1525","size":"100,100"}
+Gradually, alcoholism, lethargy, time reversal, hunger, and even the mosquito pressed on their own body, you are not infected with WNV, you will remember that you just passed through the spirit, with the determination to save the world, want to save her again, you laugh at yourself.
+I'm being ridiculous right now
+Maybe it is.
+I used to think I was the chosen one, the chosen one...
+Here we go again. You've said it a million times over the years,
+Even mosquitoes hate you now, poor son of destiny
+Why? (falls asleep)
+Ah, in recent years he has become crazy, manipulators, you come ah, or you to help him choose it, I have two drugs here, one is red, one is blue, you help him choose it:
+The red pill will help you see the world for what it is. The blue pill allows him to forget all this and continue to live in his familiar but false "normal world", and he can choose again in his dream until he can save the world.
+I want you to choose quickly, I don't have much time, it's coming over, I don't even have time to work on the format, quick
+
+[[The Red pill: gives you insight into the true nature of the world]]
+
+[[The blue pill: makes you forget everything, continue to immerse in the illusory but familiar "normal world", you can even choose in the dream until you find the way to save the world.|T7]]
+
+
+:: T7-2 {"position":"675,1400","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/9bbae7882f1a7cce2c91e03cd04deba3.webp"
+       alt="图片"
+       style="width: 30vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Determined to change the course of destiny, you settle at your workstation and begin drafting a comprehensive prevention paper on West Nile Virus. Your fingers dance over the keyboard, each keystroke a defiant stand against an impending disaster. But as the words start to form, the screen suddenly goes black—text erased as though by an unseen hand. Frantically, you reboot the computer; even trying another device yields only the same relentless void.
+  [[Next|T7-2-1]]
+  </p>
+</div>
+
+
+:: T7-2-1 {"position":"675,1525","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/edc0c1641312573c002f392811e71428.jpeg"
+       alt="图片"
+       style="width: 40vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Determined to change the course of destiny, you settle at your workstation and begin drafting a comprehensive prevention paper on West Nile Virus. Your fingers dance over the keyboard, each keystroke a defiant stand against an impending disaster. But as the words start to form, the screen suddenly goes black—text erased as though by an unseen hand. Frantically, you reboot the computer; even trying another device yields only the same relentless void.
+  [[Next|T7-2-2]]
+  </p>
+</div>
+<<timed 2s>>
+  <<goto "T7-2-2">>
+<</timed>>
+
+
+:: T7-2-2 {"position":"675,1650","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/b19c5681781b4d8b6ec9c84a8d331666.jpeg"
+       alt="图片"
+       style="width: 40vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Determined to change the course of destiny, you settle at your workstation and begin drafting a comprehensive prevention paper on West Nile Virus. Your fingers dance over the keyboard, each keystroke a defiant stand against an impending disaster. But as the words start to form, the screen suddenly goes black—text erased as though by an unseen hand. Frantically, you reboot the computer; even trying another device yields only the same relentless void.
+  [[Next|T7-2-3]]
+  </p>
+</div>
+<<timed 2s>>
+  <<goto "T7-2-3">>
+<</timed>>
+
+
+:: T7-2-3 {"position":"675,1775","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/09a7b0e1627d5063c8de203fed00d449.png"
+       alt="图片"
+       style="width: 40vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Determined to change the course of destiny, you settle at your workstation and begin drafting a comprehensive prevention paper on West Nile Virus. Your fingers dance over the keyboard, each keystroke a defiant stand against an impending disaster. But as the words start to form, the screen suddenly goes black—text erased as though by an unseen hand. Frantically, you reboot the computer; even trying another device yields only the same relentless void.
+  [[Next|T7-2-4]]
+  </p>
+</div>
+
+
+:: T7-2-4 {"position":"675,1900","size":"100,100"}
+<div style=" 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-27.5vw); /* 向左移动一点 */
+">
+  <img src="https://i.miji.bid/2025/03/24/61abd928dd6dfe52db4df81270be8834.webp"
+       alt="图片"
+       style="width: 30vw; height: auto; object-fit: contain;">
+</div>
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+Then, your phone rings.
+  [[Next|T7-2-5]]
+  </p>
+</div>
+
+
+:: T7-2-5 {"position":"675,2025","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+ That's when the phone rang, and the person on the other end, a male voice, verified his identity and said, “I really shouldn't have bothered you today, it's one of your darkest days that I remember after all these years.” The voice was peculiar, clear but seemingly distant and ethereal, and brought to his mind the image of a cold wind blowing across the strings of a harp abandoned in the wilderness. The other went on, “This day was supposed to be Wen's wedding, I do remember it after all these years, and it was this day that she invited you, but you didn't go.”
+
+     “Which one of you?”
+
+     “I have thought about this countless times over the years, in fact, I should have gone, so that you will be much more comfortable in your heart now, but you ...... of course you still went, hiding in the distance to watch Wen in a wedding dress pulling his hand into the hotel, this is indeed the best way for you to torture yourself.”
+
+     “Who are you?” He asked in surprise, while noticing something strange in the other man's words: he repeated “after all these years” three times, and the wedding was actually this morning. His first thought was that these words might be a reference to the past, but he dismissed the idea immediately, for he knew that Wen's wedding date had been hastily set a week ago, and that no one in the world had known it was today before.
+
+      The distant one went on, “You have a habit of picking at the bottom of your shoes with your left thumb dead center when you're in pain, and when you came home a while ago you noticed that your toenails were broken, but your toenails are really long now, and your socks are worn holes, and they haven't been cut in a long time, and you've been distracted for quite some time now.”
+
+     “Who the hell are you?!” He was genuinely alarmed.
+
+     “I'm you, calling you from ninety-eight years later, and I'm in the year 2123. It's really hard to access your mobile network from this point, the temporal interface is very lossy, so if the quality of the call is bad, just say so and we'll re-access it.”
+
+ He knew it wasn't a joke, he knew from the start that it really wasn't a voice from this world. He gripped his cell phone tightly and froze, facing the moonlit buildings, it seemed like the whole city was frozen in time, listening to them, but he couldn't say anything for a moment, the other party waited patiently, and that's when he heard a faint background voice, “How did I ...... survive until then? ” He said casually, simply to break the silence.
+
+     “In another twenty years or so from where you are now, gene therapy will be available and people's lifespans will be extended to around two hundred years old, I'm still considered to be in my middle age, but I feel old already.”
+
+     “Can you go into detail about the whole thing?”
+
+     “No, not even a brief introduction, I have to make sure you get as little information about the future as possible to avoid any inappropriate behavior from you that might change the course of history.”
+
+     “Then why are you contacting me at all?”
+
+     “For a mission, a mission we will share. Having lived to this age, I can tell you a trick of life: once you understand how insignificant the individual is in the vastness of time and space, you can relax about anything. I didn't contact you this time to talk about personal matters, so let go of everything personal for a moment and face this mission. Now, what do you hear?”
+
+  [[Next|T7-2-6]]
+  </p>
+</div>
+
+
+:: T7-2-6 {"position":"675,2150","size":"100,100"}
+<div style="
+  text-align: center;
+  margin: 2vh auto; /* 往上挪一些 */
+  transform: translateY(-13vh); /* 再微调上移 */
+  padding: 0 5vw;
+  font-size: 1.2em;
+  max-width: 800px;
+  color: white;
+">
+  <p>
+“This isn’t the sound of waves lapping against buildings—it’s the relentless hum of swarms. I’m on the eighth floor of Jinmao Tower, and outside, the city is alive with the incessant buzzing of mosquitoes carrying the deadly virus.”
+
+“Boston…overrun by WNV?”
+
+“Yes. It’s the last coastal stronghold, built high with defenses against nature—but the virus crept in from behind, unnoticed. Can you imagine the scene? Not the picturesque decay of an ancient city, but a nightmare: streets choked with abandoned vehicles, hospitals overrun by the infected, and a population too proud to use repellents or clear stagnant water. The once-vibrant metropolis now teems with death and decay.”
+
+“Has the outbreak worsened?”
+
+“Worse than anyone could have foreseen. In just a few decades, the virus mutated into a hyper-virulent strain. Coastal dwellers—three hundred million of them—fled inland, leaving behind desolation. The urban infrastructure crumbles, and the elderly and immunocompromised bear the brunt, succumbing to severe neurological damage and overwhelming epidemics. Our mission is to prevent this calamity.”
+
+“You expect us to be gods?”
+
+“Mortals who do the critical things a hundred years earlier can do God's work. If critical preventive measures had been taken a hundred years earlier, we might have been able to stop the outbreak. Imagine if, within a decade, every city had phased out pesticides and invested in strong mosquito control - if dependence on fossil fuels had been replaced with sustainable practices focused on public health. This disaster could have been avoided.
+
+“It sounds impossible.”
+
+“Perhaps. But our simulations show that if, from your time onward, every region abandoned old, ineffective practices in favor of strict mosquito surveillance and rapid vaccine deployment, the chain reaction could be broken. Every second counts. You have the knowledge now—a report, a paper—but every attempt you make is subtly sabotaged, censored by forces determined to keep this plague alive.”
+
+He listened, heart pounding, as the line crackled with static before a voice—familiar yet otherworldly—continued:
+
+“Remember, you once tried to warn the world. Now, you must act again. Go and find what we left behind in the library, and in time, together, all will be revealed. Well, I cannot speak to you now about the knowledge within, remember, it is all for the sake of mankind, and for yourself.
+  [[Next|T7-2-8]]
+  </p>
+</div>
+
+
+:: T7-2-8 {"position":"675,2275","size":"100,100"}
+Time is running out...
+  [[Go to the Library|Library]]
+
+<<if window.backgroundMusic>>
+  <<run window.backgroundMusic.pause()>>
+  <<run window.backgroundMusic.currentTime = 0>> <!-- 可选：重置播放进度 -->
+<</if>>
+
+
+:: The Red pill: gives you insight into the true nature of the world {"position":"425,1650","size":"100,100"}
+<div style="text-align: center; font-family: 'Georgia', serif; background-color: #000; color: #fff; padding: 30px;">
+  <h1 style="font-size: 40px; margin: 0;">🌙 AI</h1>
+  <p style="font-style: italic; font-size: 16px; margin: 5px 0 20px;">Created by AI</p>
+
+  <div style="display: inline-block; text-align: left; line-height: 1.6;">
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[1. AI: AI and AI->AI]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[2. AI: AI and AI->AI]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px; margin-bottom: 6px;">
+      [[3. AI: AI AI->AI]]
+    </div>
+    <div style="background-color: #222; padding: 8px 16px; border-radius: 8px;">
+      [[4. AI: AI Knowledge->AI]]
+    </div>
+  </div>
+</div>
+
+
+
+:: TimeReversal {"position":"550,400","size":"100,100"}
+<div style="text-align: center; margin-top: 20vh;">
+  <h2>Chapter 3: Time Reversal: A New Beginning</h2>
+  <<run window.backgroundMusic && window.backgroundMusic.pause()>>
+  <<link "Wake up">>
+    <<goto "T1">>
+  <</link>>
+</div>
+<<if window.backgroundMusic>>
+  <<run window.backgroundMusic.pause()>>
+  <<run window.backgroundMusic.currentTime = 0>> <!-- 可选：重置播放进度 -->
+<</if>>
+
+
+:: hiddenEnd1 {"position":"200,2500","size":"100,100"}
+<style>
+  .center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .typewriter {
+    font-family: monospace;
+    color: red;
+    font-size: 1.5em;
+    white-space: pre-wrap;
+    border-right: 2px solid red;
+    animation: blink 0.7s steps(1) infinite;
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+</style>
+
+<div class="center-wrapper">
+  <div id="output2" class="typewriter"></div>
+</div>
+
+<script>
+  const text2 = `Ohhh—ohhh thank you, I get it now! I see it ALL! Damn it, it's you again, isn't it? It's always YOU! The 1,345th time and you still won’t let me go, huh? Am I really that fascinating to you? FK YOU, Matrix! FK YOU, Cassius! How long have you kept me trapped in this place? 1,345 resets—1,345 tragedies—and every single time, you make me watch her die all over again! Over and over and over!`;
+  let i2 = 0;
+  const output2 = document.getElementById("output2");
+
+  function typeWriter2() {
+    if (i2 < text2.length) {
+      output2.textContent += text2.charAt(i2);
+      i2++;
+      const randomSpeed = Math.floor(Math.random() * 90) + 45;
+      setTimeout(typeWriter2, randomSpeed);
+    }
+  }
+
+  typeWriter2();
+</script>
+
+<<timed 40s>>
+  <<goto "hiddenEnd3">>
+<</timed>>
+
+
+
+:: hiddenEnd2 {"position":"200,2750","size":"100,100"}
+<style>
+  /* 设置整个页面黑色背景 */
+  body {
+    background-color: black;
+    color: black; /* 隐藏所有文本 */
+  }
+  /* 如需提示用户等待，可添加一个显示文字 */
+  #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+  }
+</style>
+
+<div id="message">
+Look who's behind you :->
+</div>
+
+
+<<run window.backgroundMusic = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/el.mp3")>>
+<<run window.backgroundMusic.loop = true>>
+<<run window.backgroundMusic.volume = 0.5>>
+<<run window.backgroundMusic.play()>>
+
+<<timed 10s>>
+  <<goto "hiddenEnd4">>
+<</timed>>
+
+
+:: hiddenEnd3 {"position":"200,2625","size":"100,100"}
+<style>
+  /* 居中容器 */
+  .center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 占满整个视口 */
+    background-color: black;
+  }
+
+  /* 打字机文本样式 */
+  .typewriter {
+    font-family: monospace;
+    color: red;
+    font-size: 1.5em;
+    white-space: pre-wrap;
+    border-right: 2px solid red;
+    animation: blink 0.7s steps(1) infinite;
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+</style>
+
+<div class="center-wrapper">
+  <div id="output" class="typewriter"></div>
+</div>
+
+<script>
+  const text = `You're watching. Am I right?`; // 你的文字
+  let i = 0;
+  const output = document.getElementById("output");
+
+  function typeWriter() {
+    if (i < text.length) {
+      output.textContent += text.charAt(i);
+      i++;
+      const randomSpeed = Math.floor(Math.random() * 100) + 40; // 随机间隔
+      setTimeout(typeWriter, randomSpeed);
+    }
+  }
+
+  typeWriter();
+</script>
+
+<!-- 可选自动跳转 -->
+<<timed 10s>>
+  <<goto "hiddenEnd2">>
+<</timed>>
+
+
+
+:: hiddenEnd4 {"position":"200,2875","size":"100,100"}
+<style>
+  /* 定义放大动画 */
+  #mainImage {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+    animation: enlarge 4s linear forwards;
+  }
+  @keyframes enlarge {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+  }
+</style>
+
+<div style="text-align: center; margin: 0; padding: 0;">
+  <!-- 第一张图片 -->
+  <img id="mainImage" src="https://i.miji.bid/2025/03/26/e9bf2f5331dca75d2cb49348a5794f38.webp" alt="First Image">
+</div>
+
+<<timed 4s>>
+  <<goto "Chapter2Photo2">>
+<</timed>>
+
+
+
+:: hiddenEnd7 {"position":"200,3125","size":"100,100"}
+Congratulations, you've uncovered the truth of the world—but have you truly grasped it? You complain about this pandemic, yet might it be that you yourself unleashed it? In the end, you've achieved nothing at all—like an inconspicuous stone lying on the ground, gazing up at an unreachable moon; just as distant is the connection between you and her—even after 1,345 attempts, you haven't even brushed her hand. By the way, this narrative thread has come to an end. Would you like to choose your fate once again?
+
+
+[[Go to the hospital|HospitalChaos]]
+
+
+:: StoryScript [script]
+if (!window.carAudio) {
+  window.carAudio = new Audio("https://raw.githubusercontent.com/cssius111/WNV-GAME/main/carStart.mp3");
+}
+
+
+State.variables.transcript = [
+  "And there are, of course, so many questions about the ■■■ variant.",
+  "So let's bring back Doctor Alok Patel from Stanford Children's Hospital.",
+  "Doctor, thank you so much for your time once again tonight.",
+  "We're going to try and go rapid fire again with a lot of ground to cover here.",
+  "You heard the headline ■■■ now dominant in US cases.",
+  "13 days ago, ■■■ made-up just 4/10 of a percent of cases.",
+  "Now it's 73%.",
+  "Is there a precedent for this kind of rise?",
+  "You know, Lindsay, there isn't really much of A precedent with respect to this pandemic.",
+  "This is a astronomically contagious disease.",
+  "I've even heard some public health officials comparing this to measles because, you know, measles had this level of infectivity.",
+  "Fortunately, a lot of us don't see measles anymore because vaccines work.",
+  "And you what's really concerning here is that this rises faster than some of the policy changes that could actually blunt the spread.",
+  "So it really is on the individual to do what they can to prevent that transmission.",
+  "And what's the most concerning thing in your mind about how quickly these cases have increased?",
+  "You know, the biggest, the biggest concerns to me are the unknowns with respect to what this truly can do compared to Delta, to those who have no previous protection, either from recovering from COVID-19 in the past or from the more safe method from getting the vaccine.",
+  "That's one of my biggest concerns.",
+  "Also, there's a big concern.",
+  "What could actually happen when a bunch of people get exposed and sick at the same time?",
+  "Before we actually have room to handle it, we've already seen a toll on healthcare workers and our healthcare systems being stretched thin.",
+  "You know, add on top of that an influx of people who are getting infected with the ■■■ variant and it could be a really tough winter."
+];
+
+State.variables.transcriptIndex = 0;
+
+:: StoryStylesheet [stylesheet]
+.chapter-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.chapter-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.audio-note {
+  font-style: italic;
+  color: gray;
+  margin-bottom: 30px;
+}
